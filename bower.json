@@ -1,0 +1,24 @@
+{
+  "name": "github-autocomplete",
+  "description": "autocomplete on search of github user",
+  "main": "index.js",
+  "authors": [
+    "MadhankumarJ"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "autocomplete"
+  ],
+  "homepage": "https://github.com/madhankumar028/github-autocomplete",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "jquery": "1.9.1"
+  }
+}
