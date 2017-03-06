@@ -3,13 +3,15 @@
 <head>
     <title>Github autocomplete</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="container"> 
         <h1 class="text-center">Github autocomplete v1.0.0</h1>
         <div class="row">
-            <div class="jumbotron">
+            <div id="search-container">
                 <input id="search" type="text" placeholder="Search GithubUser..."/>
+                <input id="suggestion" disabled="disabled" type="text"/>
             </div>
         </div>
     </div>
