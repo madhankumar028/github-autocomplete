@@ -16,9 +16,14 @@
 
         value = input.value;
 
-        // compare input with users Array
+        var reg = new RegExp(value.split('').join('\\w*').replace(/\W/, ""), 'i');
+
+        // compare input with users Array using RegExp Pattern
         users.forEach(function(item) {
-            // TODO regex pattern to evaluate the user input
+            if (item.match(reg)) {
+                suggestion.value = item;
+                return item;
+            }
         });
     });
 
